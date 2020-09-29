@@ -1,7 +1,7 @@
 [
    {
       "header":{
-         "refTime":"2020-09-14T03:00:00",
+         "refTime":"2020-09-14T03:00:00.000Z",
          "parameterCategory":2,
          "parameterNumber":2,
          "forecastTime":0,
@@ -11,8 +11,8 @@
          "la1":90.0,
          "lo2":359.0,
          "la2":-90.0,
-         "dx":2.5,
-         "dy":2.5
+         "dx":1.0,
+         "dy":1.0
       },
       "data":[
          4.54,
@@ -65179,7 +65179,7 @@
    },
    {
       "header":{
-         "refTime":"2020-09-14T03:00:00",
+         "refTime":"2020-09-14T03:00:00.000Z",
          "parameterCategory":2,
          "parameterNumber":3,
          "forecastTime":0,
@@ -65189,8 +65189,8 @@
          "la1":90.0,
          "lo2":359.0,
          "la2":-90.0,
-         "dx":2.5,
-         "dy":2.5
+         "dx":1.0,
+         "dy":1.0
       },
       "data":[
          -1.36,
