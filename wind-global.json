@@ -16,7 +16,7 @@
          "productType":1,
          "productTypeName":"Forecast products",
          "productDefinitionTemplate":0,
-         "productDefinitionTemplateName":"Analysis/forecast at horizontal level/layer at a point in time",
+         "productDefinitionTemplateName":"Analysis/forecast at horizontal level/layer at a point in time",*/
          "parameterCategory":2,
          "parameterCategoryName":"Momentum",
          "parameterNumber":2,
@@ -43,7 +43,7 @@
          "nx":360,
          "ny":181,
          "basicAngle":0,
-         "subDivisions":0,*/
+         "subDivisions":0,
          "lo1":0.0,
          "la1":90.0,
          "lo2":359.0,
@@ -65231,7 +65231,7 @@
          "productType":1,
          "productTypeName":"Forecast products",
          "productDefinitionTemplate":0,
-         "productDefinitionTemplateName":"Analysis/forecast at horizontal level/layer at a point in time",
+         "productDefinitionTemplateName":"Analysis/forecast at horizontal level/layer at a point in time",*/
          "parameterCategory":2,
          "parameterCategoryName":"Momentum",
          "parameterNumber":3,
@@ -65258,7 +65258,7 @@
          "nx":360,
          "ny":181,
          "basicAngle":0,
-         "subDivisions":0,*/
+         "subDivisions":0,
          "lo1":0.0,
          "la1":90.0,
          "lo2":359.0,
