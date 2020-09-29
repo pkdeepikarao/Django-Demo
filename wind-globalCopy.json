@@ -2,8 +2,8 @@
    {
       "header":{
          "refTime":"2020-09-14T03:00:00",
-         "parameterCategory":,
-         "parameterNumber":,
+         "parameterCategory":2,
+         "parameterNumber":2,
          "forecastTime":0,
          "nx":360,
          "ny":181,
@@ -65180,8 +65180,8 @@
    {
       "header":{
          "refTime":"2020-09-14T03:00:00",
-         "parameterCategory":,
-         "parameterNumber":,
+         "parameterCategory":2,
+         "parameterNumber":3,
          "forecastTime":0,
          "nx":360,
          "ny":181,
