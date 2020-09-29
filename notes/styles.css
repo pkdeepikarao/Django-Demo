@@ -1,0 +1,473 @@
+/*custom css*/
+body, html, * {
+  font-family: 'fontAwesome','Montserrat' !important;
+}
+
+ @font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body h1,body h2,body h3,body h4,body h5,body h6, body b {
+  font-family: 'Montserrat Bold' !important;
+}
+
+.title-messages{
+  background: #efefef;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+a.dropdown-toggle.count-info {
+  background: #fcfcff;
+}
+
+.dark-theme a.dropdown-toggle.count-info {
+  background: #0d131b;
+}
+
+.dropdown-menu.dropdown-alerts{
+  background-color: #efefef;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 4px;
+  top: 103%;
+}
+
+ul.dropdown-menu.dropdown-alerts li, 
+ul.dropdown-menu.dropdown-alerts li:last-child {
+  margin: 0px 4px;
+  background: #f8f8ff;
+  padding: 5px 30px;
+}
+
+ul.nav.navbar-top-links.navbar-right li a{
+  margin: 0px;
+  color: #676a6c;
+}
+
+ul.nav.navbar-top-links.navbar-right li a.dropdown-item .fa{
+  margin: 0px;
+  color: skyblue;
+  margin-right: 8px;
+}
+
+span#date_time {
+  color: #ddd;
+  margin-left: -5px;
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+}
+
+i.stuff {
+  font-family: Roboto, sans-serif, 'fontawesome';
+}
+
+.dark-theme .stuff:before {
+  color:  #fadc6f !important;
+}
+
+#datecur:before {
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+
+#timeblock, 
+#revision {
+  color: #00c4ff;
+  vertical-align: middle;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.nav.navbar-top-links.navbar-right {
+  white-space: nowrap;
+}
+
+.top-nav-header-text {
+  color:#fadc6f; 
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.top-nav-value-text {
+  color: #ffc92f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.display-block {
+  display: block;
+}
+
+.ibox {
+  padding: 0 3px;
+}
+
+.ibox-content {
+  padding: 2px;
+}
+
+.map-container {
+  width: 100%; 
+  height: 68vh;
+}
+
+.tab-pane p {
+  padding: 12px 8px;
+  background: #1b232f;
+  margin: 0px;
+}
+
+ul.nav.nav-tabs li a {
+  border: none;
+}
+
+ul.nav.nav-tabs li {
+  border-bottom: solid 2px #0d131b;
+}
+
+ul.nav.nav-tabs li.active {
+  background: #1b232f;
+  border-bottom: solid 2px #293345;
+}
+
+.dark-theme .nav>li a {
+  font-weight: normal;
+}
+
+.dark-theme .nav>li.active a {
+  color: #f2f2f2;
+}
+
+.nav-tabs>li>a {
+  border-radius: 0 0 4px 4px ;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.dark-theme .nav-tabs>li>a:focus, 
+.dark-theme .nav-tabs>li>a:hover {
+  background-color: #1b232f;
+  color: #fff;
+  border-color: #1b232f;
+}
+
+.app-auth.module {
+  display: none;
+}
+
+body.mini-navbar #page-wrapper.page-wrapper-max {
+  margin: 0px !important;
+  padding: 0px !important;
+  min-height: 100vh !important;
+}
+
+.map-container.map-container-max {
+  height: 100vh;
+}
+
+#map-section,
+#right-section {
+  transition: all 1s;
+}
+
+.remove-padding {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+
+/*navbar-map*/
+#navbar-map.navbar-default {
+  height: auto !important;
+}
+
+#navbar-map.navbar-fixed-top {
+  left: 0;
+}
+
+.dark-theme #navbar-map.navbar-default, 
+.dark-theme #navbar-map.navbar-fixed-top {
+  background-color: rgba(13,19,27,0.6) !important; /*rgba used so that the child elements dont get affected by the opacity*/
+}
+
+#mapid .logo-element {
+  display: inline-block;
+  margin-left: 72px;
+  margin-right: 88px;
+}
+
+#mapid .logo-element img {
+  width: 164px !important;
+  height: auto !important;
+}
+
+#mapid .pull-right {
+  margin-right: 32px;
+}
+
+.base-map-selection {
+  float: left;
+  clear: none;
+  margin-top: 20px;
+}
+
+.base-map-selection label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 1em 0px 8px;
+  font-weight: normal;
+}
+
+.base-map-selection input[type=radio], 
+.base-map-selection input[type=checkbox] {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+  cursor: pointer;
+}
+
+input[type=radio], 
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+#layer-section,
+#layer-section-shp,
+#layer-section td,
+#layer-section-shp td {
+  border: none !important;
+  margin:0 !important;
+  padding: 0 !important;
+}
+
+.layer-view {
+  margin-right: 8px !important;
+}
+
+#layer-section label {
+  font-weight: normal;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.fa.fa-home,
+.fa.fa-map-marker {
+  font-size: 24px;
+  color: white;
+  padding: 8px;
+}
+
+.btn-icon,
+.btn-icon:focus,
+.btn-icon:active,
+.btn-icon:hover {
+  background: #0d131b !important;
+  color: white;
+}
+
+.gistool-menu {
+  position: absolute;
+  top: 58px;
+  left: 322px;
+  background: #0d131b;
+  width: 77%;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+    z-index: 1033 !important;
+}
+
+#mapid a.leaflet-control-zoom-in,
+#mapid a.leaflet-control-zoom-out {
+  color: white;
+}
+
+.leaflet-bar a, .leaflet-bar a:hover {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: none !important;
+}
+
+.leaflet-right {
+    right: -8px !important;
+}
+
+#map-search .btn-default {
+    color: inherit;
+    background: transparent;
+    border: none;
+}
+
+#map-search {
+  right: 40px;
+}
+
+/*fixed navbar*/
+
+.bg-primary {
+    color: #fff;
+    background-color: #0D131B; /*#337ab7 this gives that nice blue background*/
+}
+
+
+
+
+.navbar.fixed-right {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: rgba(13,19,27,0.6) !important; 
+}
+
+
+  .navbar.fixed-right{
+    bottom:0;
+    width:40px;
+    flex-flow:column nowrap;
+    align-items:flex-start;
+    border-radius: 0px;
+  }
+  .navbar.fixed-left{
+    border-radius: 0px;
+  }
+
+  .navbar.fixed-right .navbar-collapse{
+    flex-grow:0;
+    flex-direction:column;
+    width:100%
+  }
+  .navbar.fixed-right .navbar-collapse .navbar-nav{
+    flex-direction:column;
+    width:100%
+  }
+  .navbar.fixed-right .navbar-collapse .navbar-nav .nav-item{
+    width:100%
+  }
+  .navbar.fixed-right .navbar-collapse .navbar-nav .nav-item .dropdown-menu{
+    top:0
+  }
+  .navbar.fixed-right{
+    left:auto
+  }
+  .navbar.fixed-right .navbar-nav .nav-item .dropdown-toggle:after{
+    vertical-align:baseline
+  }
+  .navbar.fixed-right .navbar-nav .nav-item .dropdown-menu{
+    left:auto;
+    right:100%
+  }
+
+
+  #mapid .navbar.fixed-right,
+  #mapid .navbar.fixed-left {
+    top: 56px;
+}
+
+
+
+
+#right-navbar.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+#right-navbar .navbar-nav,
+#left-navbar .navbar-nav{
+    padding: 0px !important;
+    list-style: none !important;
+    margin-top: 32px;
+  }
+
+#right-navbar .navbar-nav .nav-item{
+    text-align: center;
+    padding: 8px;
+  }
+
+  #mapid a {
+    color: white;
+  }
+
+#mapid .navbar {
+  margin: 0px;
+}
+
+
+
+.navbar.fixed-left{position:fixed;top:0;left:0;right:0;z-index:1030}
+.navbar.fixed-left{bottom:0;width:320px;flex-flow:column nowrap;align-items:flex-start}
+.navbar.fixed-left .navbar-collapse{flex-grow:0;flex-direction:column;width:100%}
+.navbar.fixed-left .navbar-collapse .navbar-nav{flex-direction:column;width:100%}
+.navbar.fixed-left .navbar-collapse .navbar-nav .nav-item{width:100%}
+.navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu{top:0}
+.navbar.fixed-left{right:auto}
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after{border-top:.3em solid transparent;border-left:.3em solid;border-bottom:.3em solid transparent;border-right:none;vertical-align:baseline}
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-menu{left:100%}
+
+
+
+.right-push-2x {
+  margin-right: 16px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #1b232f !important;
+    color: #f2f2f2 !important;
+    box-shadow: none;
+}
+
+table.popup-table, 
+table.popup-table th, 
+table.popup-table tr, 
+table.popup-table td {
+    border: none !important;
+}
+
+th.popup-table-header, 
+.popup-table td{
+    padding: 4px 8px;
+}
+
+table.popup-table tbody td {
+    background: #293345;
+}
+
+.table-section table.table {
+    border: none !important;
+}
+
+.table-section table.table td {
+    border: 1px solid #e7eaec;
+}
+
+#layer-section-shp tbody label {
+  font-weight: normal;
+}

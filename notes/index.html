@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Notes</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <h1>Installation</h1>
+            <ul>
+                <li>pip install django</li>
+                <li>python django-admin --version</li>
+            </ul>
+
+            <h1>Initial Setup Steps</h1>
+            <ul>
+                <h5>Create Project</h5>
+                <li>django-admin startproject projectName</li>
+                <div class="highlight">
+                  <pre>
+                    <span>projectName</span><span>/</span>
+                      <span>manage</span><span>.</span><span>py</span>
+                      <span>projectName</span><span>/</span>
+                          <span>__init__</span><span>.</span><span>py</span>
+                          <span>settings</span><span>.</span><span>py</span>
+                          <span>urls</span><span>.</span><span>py</span>
+                          <span>asgi</span><span>.</span><span>py</span>
+                          <span>wsgi</span><span>.</span><span>py</span>
+                  </pre></div>
+                <h5>Run Server</h5>
+                <li>python manage.py runserver</li>                
+                <h5>Create App</h5>
+                <li>cd into projectName</li>
+                <li>python manage.py startapp appName</li>
+                <div class="highlight"><pre>
+                <span class="n">polls</span><span class="o">/</span>
+    <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">admin</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">apps</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">migrations</span><span class="o">/</span>
+        <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">models</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">tests</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">views</span><span class="o">.</span><span class="n">py</span>
+</pre></div>                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
