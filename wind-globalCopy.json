@@ -1,9 +1,9 @@
 [
    {
       "header":{
-         "refTime":"2016-04-30T06:00:00.000Z",
-         "parameterCategory":2,
-         "parameterNumber":2,
+         "refTime":"2020-09-14T03:00:00",
+         "parameterCategory":,
+         "parameterNumber":,
          "forecastTime":0,
          "nx":360,
          "ny":181,
@@ -11,8 +11,8 @@
          "la1":90.0,
          "lo2":359.0,
          "la2":-90.0,
-         "dx":1.0,
-         "dy":1.0
+         "dx":2.5,
+         "dy":2.5
       },
       "data":[
          4.54,
@@ -65179,9 +65179,9 @@
    },
    {
       "header":{
-         "refTime":"2016-04-30T06:00:00.000Z",
-         "parameterCategory":2,
-         "parameterNumber":3,
+         "refTime":"2020-09-14T03:00:00",
+         "parameterCategory":,
+         "parameterNumber":,
          "forecastTime":0,
          "nx":360,
          "ny":181,
@@ -65189,8 +65189,8 @@
          "la1":90.0,
          "lo2":359.0,
          "la2":-90.0,
-         "dx":1.0,
-         "dy":1.0
+         "dx":2.5,
+         "dy":2.5
       },
       "data":[
          -1.36,
